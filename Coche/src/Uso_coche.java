@@ -7,6 +7,7 @@ public class Uso_coche {
 
         Coche seat = new Coche();
 
+
         System.out.println(seat.longitud);
 
 

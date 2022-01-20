@@ -1,10 +1,10 @@
 public class Coche {
 
-    int ruedas;
-    int motor;
-    int altura;
-    int longitud;
-    double ancho;
+    private int ruedas;
+    private int motor;
+    private int altura;
+    private int longitud;
+    private double ancho;
 
 
 //metodo constructor

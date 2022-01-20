@@ -28,6 +28,10 @@ public class Uso_coche {
 
         System.out.println("el precio del coche es de: "+seat.precio_coche());
 
+        seat.establece_modelo("León FR");
+
+        System.out.println("el modelo es: " + seat.dime_modelo());
+
 
 
   

@@ -35,10 +35,12 @@ public class Coche {
     //SETTER
 
     public void establece_color(String color){
-        this.color=color;
+        this.color=color;      
 
-       
+    }
 
+    public void establece_modelo(String escribe_modelo){
+        this.modelo=escribe_modelo;
     }
 
     public void establece_cv(double cv){
@@ -67,6 +69,10 @@ public class Coche {
     }
 
     //GETTER
+
+    public String dime_modelo(){
+        return modelo;
+    }
 
     public String dime_largo(){
         return "El largo del coche es "+ largo;

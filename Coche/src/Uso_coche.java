@@ -7,8 +7,11 @@ public class Uso_coche {
 
         Coche seat = new Coche();
 
+        seat.establece_color("amarillo");
+        System.out.println(seat.dime_color());
 
-        System.out.println(seat.longitud);
+  
+
 
 
         }

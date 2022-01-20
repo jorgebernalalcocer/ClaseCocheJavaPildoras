@@ -2,9 +2,18 @@ public class Uso_coche {
 
     public static void main(String[] args){
 
-        System.out.println("Hello World");
-    }
+
+        //instanciamos el objeto seat de la clase coche
+
+        Coche seat = new Coche();
+
+        System.out.println(seat.longitud);
+
+
+        }
     }
 
+    
+    
     
 

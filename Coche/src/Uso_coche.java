@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Uso_coche {
 
     public static void main(String[] args){
@@ -10,15 +12,15 @@ public class Uso_coche {
        
         System.out.println(seat.dime_datos_generales());
 
-      seat.establece_climatizador("si");
+      seat.establece_climatizador(JOptionPane.showInputDialog("Lleva climatizador?"));
       System.out.println(seat.dime_climatizador());
 
-        seat.establece_color("Rojo emoción");
+        seat.establece_color(JOptionPane.showInputDialog("Introduce color"));
         seat.establece_cv(150);
         
         System.out.println(seat.dime_color());
 
-        seat.establece_asientos_cuero("verdadero");
+        seat.establece_asientos_cuero(JOptionPane.showInputDialog("Lleva asientos de cuero?"));
         
         System.out.println(seat.dime_asientos_cuero());
 

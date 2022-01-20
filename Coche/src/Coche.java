@@ -59,7 +59,7 @@ public class Coche {
     }
 
     public void establece_climatizador(String climatizador){
-        if(climatizador=="si"){
+        if(climatizador.equalsIgnoreCase("si")||climatizador.equalsIgnoreCase("verdadero")){
             this.climatizador=true;
 
         }else{
